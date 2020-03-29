@@ -1,0 +1,29 @@
+.agent {
+    padding: 58px 0 78px 0;
+    background: url('../../img/agent.jpg') center center/cover;
+    background-attachment: fixed, fixed;
+    &__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 102px;
+        height: 102px;
+        margin: 0 auto;
+        border-radius: 50%;
+        border: 1px solid #fff;
+    }
+    &__title {
+        margin-top: 25px;
+        text-align: center;
+        color: #fff;
+        font-size: 23px;
+    }
+    &__descr{
+        display: block;
+        margin-top: 25px;
+        text-align: center;
+        color: #fff;
+        font-size: 19px;
+        line-height: 25px;
+    }
+}
